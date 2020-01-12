@@ -19,7 +19,7 @@ const About = () => {
             <CardV2
               titleCard="Card Title 01"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
-              colorButton="primary"
+              colorButton="gatsby"
             />
           </div>
           <div className="col-4">

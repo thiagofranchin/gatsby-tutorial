@@ -1,0 +1,10 @@
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "success":    green,
+    "gatsby":     purple
+  ),
+  $theme-colors
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
