@@ -1,17 +1,20 @@
 import React from 'react'
-import Menu from '../components/Menu'
 import Layout from '../components/Layout'
-
 import CardV2 from '../components/CardV2'
 
 const About = () => {
-  const text = 'meu texto'
+  const text = 'Lorem ipsum dolor sit amet consectetur'
 
   return(
     <Layout>
-      <Menu />
-      <h1>About</h1>
-      <h2>{ text }</h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 py-4">
+            <h1>About</h1>
+            <p>{ text }</p>
+          </div>
+        </div>
+      </div>
 
       <div className="container">
         <div className="row">
