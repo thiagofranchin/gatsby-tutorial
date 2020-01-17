@@ -23,6 +23,8 @@ const About = () => {
               titleCard="Card Title 01"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
               colorButton="gatsby"
+              backgroundCard="#e3a617"
+              styleDefault={true}
             />
           </div>
           <div className="col-4">
@@ -30,13 +32,17 @@ const About = () => {
               titleCard="Card Title 02"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
               colorButton="warning"
+              backgroundCard=""
+              styleDefault={false}
             />
           </div>
           <div className="col-4">
             <CardV2
               titleCard="Card Title 03"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
-              colorButton="danger"
+              colorButton="gatsby"
+              backgroundCard="#e3a617"
+              styleDefault={true}
             />
           </div>
         </div>
