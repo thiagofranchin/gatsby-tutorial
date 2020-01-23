@@ -1,11 +1,14 @@
-import { Email } from 'styled-icons/material/Email'
+import { Email, LocationOn } from 'styled-icons/material'
 import { Phone } from 'styled-icons/boxicons-solid/Phone'
-import { LocationOn } from 'styled-icons/material/LocationOn'
+import { FacebookSquare, Github, Codepen } from 'styled-icons/boxicons-logos'
 
 const Icons = {
   Email,
   Phone,
-  LocationOn
+  LocationOn,
+  Facebook: FacebookSquare,
+  Github,
+  Codepen
 }
 
 export default Icons
