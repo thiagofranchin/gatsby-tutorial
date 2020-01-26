@@ -20,6 +20,7 @@ const About = () => {
         <div className="row">
           <div className="col-4">
             <CardV2
+              nameImage="foto01"
               titleCard="Card Title 01"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
               colorButton="gatsby"
@@ -29,6 +30,7 @@ const About = () => {
           </div>
           <div className="col-4">
             <CardV2
+              nameImage="foto02"
               titleCard="Card Title 02"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
               colorButton="warning"
@@ -38,6 +40,7 @@ const About = () => {
           </div>
           <div className="col-4">
             <CardV2
+              nameImage="foto03"
               titleCard="Card Title 03"
               textCard="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque tenetur vero quod autem, deleniti alias consequatur. Iure labore expedita, quia nulla quo minus ipsam velit quaerat quod in ipsum?"
               colorButton="gatsby"

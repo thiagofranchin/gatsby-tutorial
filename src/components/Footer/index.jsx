@@ -38,13 +38,13 @@ const Footer = () => {
             {description}
           </div>
           <div className="col-6 d-flex justify-content-center align-items-center">
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noopener noreferrer">
               <Styled.GitHubIcon />
             </a>
-            <a href={codepen} target="_blank">
+            <a href={codepen} target="_blank" rel="noopener noreferrer">
               <Styled.CodepenIcon />
             </a>
-            <a href={facebook} target="_blank">
+            <a href={facebook} target="_blank" rel="noopener noreferrer">
               <Styled.FacebookIcon />
             </a>
           </div>
