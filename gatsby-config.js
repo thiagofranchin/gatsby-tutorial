@@ -4,6 +4,7 @@ module.exports = {
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum, dui et tristique tristique, turpis lorem pulvinar nulla, in maximus nisl tellus vitae purus. Mauris quis imperdiet metus.`,
     author: `@gatsbyjs`,
     copyright: `© Copyright - All Rights Reserved`,
+    siteUrl: `https://www.example.com`,
     socialMedia: {
       github: 'https://github.com/thiagofranchin',
       codepen: 'https://codepen.io/thiagofranchin/',
@@ -14,6 +15,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

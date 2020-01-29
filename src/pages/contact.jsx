@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import SEO from "../components/seo"
 
 import * as Styled from '../styles/pages/contactStyles'
 
@@ -8,6 +9,7 @@ const Contact = () => {
 
   return(
     <Layout>
+      <SEO title="contact" />
       <div className="container">
         <div className="row">
           <div className="col-12 py-4">
