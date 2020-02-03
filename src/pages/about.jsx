@@ -23,7 +23,7 @@ const About = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-lg-4 mb-3">
             <CardV2
               nameImage="foto01"
               titleCard="Card Title 01"
@@ -33,7 +33,7 @@ const About = () => {
               styleDefault={true}
             />
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 mb-3">
             <CardV2
               nameImage="foto02"
               titleCard="Card Title 02"
@@ -43,7 +43,7 @@ const About = () => {
               styleDefault={false}
             />
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 mb-3">
             <CardV2
               nameImage="foto03"
               titleCard="Card Title 03"
