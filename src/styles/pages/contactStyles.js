@@ -8,7 +8,7 @@ export const EmailWrapper = styled(Icons.Email)`
   ${props =>
     props.danger &&
     css`
-      color: orange;
+      color: #9963BA;
       width: 35px;
     `
   };
@@ -21,7 +21,7 @@ export const PhoneWrapper = styled(Icons.Phone)`
   ${props =>
     props.danger &&
     css`
-      color: orange;
+      color: #9963BA;
       width: 35px;
     `
   };
@@ -34,7 +34,7 @@ export const LocationOnWrapper = styled(Icons.LocationOn)`
   ${props =>
     props.danger &&
     css`
-      color: orange;
+      color: #9963BA;
       width: 35px;
     `
   };

@@ -17,7 +17,8 @@ const Contact = () => {
             <p>{ text }</p>
           </div>
           <div className="col-md-6 mb-5">
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
               <input type="text" className="form-control" id="exampleInputName" placeholder="Name" />
             </div>
@@ -38,11 +39,11 @@ const Contact = () => {
             </li>
             <li className="list-group-item">
               <Styled.PhoneWrapper danger
-              /> (00) 98765-4321
+              /> (00) 98765-1234
             </li>
             <li className="list-group-item">
               <Styled.LocationOnWrapper danger
-              /> Street 27, 123
+              /> Street 27, 321
             </li>
           </ul>
           </div>
