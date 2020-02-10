@@ -4,7 +4,7 @@ module.exports = {
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum, dui et tristique tristique, turpis lorem pulvinar nulla, in maximus nisl tellus vitae purus. Mauris quis imperdiet metus.`,
     author: `@gatsbyjs`,
     copyright: `© Copyright - All Rights Reserved`,
-    siteUrl: `https://www.example.com`,
+    siteUrl: `https://gatsby-app-tutorial.netlify.com/`,
     socialMedia: {
       github: 'https://github.com/thiagofranchin',
       codepen: 'https://codepen.io/thiagofranchin/',
